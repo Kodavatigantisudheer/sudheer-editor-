@@ -1,0 +1,99 @@
+/* Fonts */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #eee;
+    background-color: #0b0b0b;
+  }
+  
+  h1, h2 {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://images.unsplash.com/photo-1596972812018-6385b8bd3e13?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM3fHxmaWxtJTIwZWRpdGluZyUyMHRpbWVsaW5lfGVufDB8fDB8fHww') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgb(0, 0, 0);
+    padding: 70px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .overlay h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .overlay p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .cta {
+    background-color: #e50914;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  section {
+    margin-bottom: 60px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  .project video {
+    width: 100%;
+    border: 2px solid #333;
+    border-radius: 8px;
+  }
+  
+  .project p {
+    margin-top: 10px;
+    color: #ccc;
+    text-align: center;
+  }
+  
+  .coming-soon {
+    border: 2px dashed #444;
+    padding: 60px 20px;
+    text-align: center;
+    color: #777;
+  }
+  
+  ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  a {
+    color: #e50914;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #000;
+    color: #666;
+  }
+  
